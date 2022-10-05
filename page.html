@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    
+    </script>
+</head>
+<body>
+    <!-- GET ALL DATA -->
+    <!--
+    <form action="http://localhost:8080/flight">
+        <input type="submit" value="Get All Data" />
+    </form>
+    -->
+    <!-- a.	All flights whose destination is a specific city 
+        (The list of flights must be displayed on a table) -->
+    <form action="http://localhost:8080/">
+        Destination: 
+        <input type="text" id="destination">
+        <input type="submit" value="Run" />
+    </form>
+    <!-- b.	All flights who fly on a specific date (not time) -->
+    <form action="http://localhost:8080/">
+        Date:
+        <input type="datetime" id="datetime">
+        <input type="submit" value="Run" />
+    </form>
+    <!-- c.	Number of flights in a specific day -->
+    <form action="http://localhost:8080/">
+        Number of flights:
+        <input type="text" id="perDayFlights">
+        <input type="submit" value="Run" />
+    </form>
+</body>
+</html>
